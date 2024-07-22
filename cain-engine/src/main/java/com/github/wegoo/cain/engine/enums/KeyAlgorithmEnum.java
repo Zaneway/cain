@@ -4,9 +4,10 @@ import com.github.wegoo.cain.engine.base.BaseAlgorithmEnum;
 
 public enum KeyAlgorithmEnum implements BaseAlgorithmEnum {
   SM2("SM2",AlgorithmTypeEnum.ASYMMETRY),
-  RSA("RSA",AlgorithmTypeEnum.SYMMETRY),
-  SM3("SM3",AlgorithmTypeEnum.HASH)
-
+  RSA("RSA",AlgorithmTypeEnum.ASYMMETRY),
+  SM3("SM3",AlgorithmTypeEnum.HASH),
+  SM4("SM4",AlgorithmTypeEnum.SYMMETRY),
+  AES("AES",AlgorithmTypeEnum.SYMMETRY),
   ;
 
   String algorithm;
