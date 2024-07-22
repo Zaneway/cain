@@ -9,7 +9,9 @@ public enum KeyParamsEnum implements BaseParams {
   RSA_1024(KeyAlgorithmEnum.RSA, 1024),
   RSA_2048(KeyAlgorithmEnum.RSA, 2048),
   RSA_4096(KeyAlgorithmEnum.RSA, 4096),
-  SM4(KeyAlgorithmEnum)
+  SM4_128(KeyAlgorithmEnum.SM4,128),
+  AES_128(KeyAlgorithmEnum.AES,128),
+  AES_192(KeyAlgorithmEnum.AES,192),
   ;
 
   private KeyAlgorithmEnum keyAlg;
